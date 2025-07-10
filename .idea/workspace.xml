@@ -5,19 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01c7a69e-2b7e-4922-92de-f0e73a513df7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controllers/product.controller.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/db/db.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/product.model.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/product.routes.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/product.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controllers/contact.controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/db/contact.db.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/contact.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/contact.routes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/contact.service..ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +116,8 @@
       <workItem from="1751133045176" duration="303000" />
       <workItem from="1751635428898" duration="2140000" />
       <workItem from="1751685214465" duration="21852000" />
-      <workItem from="1751888113306" duration="1408000" />
+      <workItem from="1751888113306" duration="2185000" />
+      <workItem from="1752172310137" duration="6094000" />
     </task>
     <servers />
   </component>

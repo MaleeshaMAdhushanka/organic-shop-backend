@@ -1,5 +1,6 @@
 import express, {Express, Request, Response} from "express";
 import productRoutes from "./routes/product.routes";
+import contactRouter from "./routes/contact.routes";
 import cors from "cors";
 //Define the middleware
 //Initialize the express app
@@ -27,6 +28,10 @@ app.use(cors(corsOptions));
 
 // api/products routs
 app.use("/api/products", productRoutes)
+
+//api contacts routes
+app.use("/api/contacts", contactRouter)
+
 //define a simple http get req
 // app.get('/', (req:Request, res:Response) => {
 //     console.log(req.body);
