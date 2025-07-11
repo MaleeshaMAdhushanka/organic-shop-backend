@@ -12,7 +12,10 @@ export const saveContact = (contact: Contact): Contact => {
     return contact;
 }
 
-export  const validatedContact = (contact: Contact)=> {
+export  const validatedContact = (contact: any):string | null => {
+    if (!contact) {
+        return "Contact data is required";
+    }
 
     if (!contact.email || !contact.subject || !contact.message) {
         return "All fields are required";
