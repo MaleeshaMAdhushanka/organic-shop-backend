@@ -2,9 +2,9 @@ import {Request, Response} from 'express';
 import * as productService from "../services/product.service";
 //controller function to handle get all products
 
-export const getAllProducts = (req: Request, res: Response) => {
+export const getAllProducts = async  (req: Request, res: Response) => {
     try {
-        const products = productService.getAllProducts();
+        const products = await productService.getAllProducts();
         res.status(200).json(products);
 
     } catch (error) {
@@ -16,7 +16,7 @@ export const getAllProducts = (req: Request, res: Response) => {
 
 }
 
-export const saveProduct = (req: Request, res: Response) => {
+export const saveProduct = async (req: Request, res: Response) => {
 
     try {
         const product = req.body;
@@ -29,8 +29,10 @@ export const saveProduct = (req: Request, res: Response) => {
             return;
         }
 
-        const savedProduct = productService.saveProduct(product);
+        const savedProduct = await productService.saveProduct(product);
+        console.log(savedProduct);
         res.status(201).json(savedProduct);
+        return;
 
     } catch (error) {
         console.log(error);
